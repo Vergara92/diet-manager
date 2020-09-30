@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/532817f8-6005-4658-a55d-aba43a63ff9b/deploy-status)](https://app.netlify.com/sites/kind-shannon-8d75de/deploys)
+
 # diet-manager
 
 ## Project setup
