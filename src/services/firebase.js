@@ -1,8 +1,5 @@
 import * as firebase from 'firebase'
 
-import 'firebase/auth'
-import 'firebase/firestore'
-
 var firebaseConfig = {
   apiKey: 'AIzaSyCWBMhmI-lFBlqp60WXt11-ZoZ-R5zQH4o',
   authDomain: 'germanentrena-e78ad.firebaseapp.com',
@@ -13,4 +10,6 @@ var firebaseConfig = {
   appId: '1:770387744787:web:7129b84bf8d9c3873e47e6'
 }
 
-firebase.initializeApp(firebaseConfig)
+const firebaseApp = firebase.initializeApp(firebaseConfig)
+
+export const db = firebaseApp.firestore()
